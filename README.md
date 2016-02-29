@@ -10,7 +10,7 @@
    2. ``cd aes``
    3. On y ajoute ``reveal.js`` : ``git clone https://github.com/hakimel/reveal.js``
    4. Le fichier à modifier est ``slides.md``
-   5. Pour générer les slides avec [pandoc](http://pandoc.org/) : ``pandoc -s -t revealjs -V slideNumber=true -o index.html slides.md``
+   5. Pour générer les slides avec [pandoc](http://pandoc.org/) : ``pandoc -s -t revealjs -V slideNumber=true -o index.html slides.md`` (Pour changer de thème ou de transition, il faut utiliser ``--variable theme="[theme]``, par exemple...)
    6. Ouvrir avec un navigateur le fichier ``index.html``
 
 ## Licence
