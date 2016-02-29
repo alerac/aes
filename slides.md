@@ -56,8 +56,10 @@ amélioration dans le champ proposé par google
 
 # Autres opérateurs
 
-* inurl:
-* cache:
-* OR, |
-* " "
-* * (troncature)
+## Exemples
+
+* ``inurl:``
+* ``cache:``
+* ``OR``, ``|``
+* ``" "``
+* ``*``(troncature)
