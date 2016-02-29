@@ -18,7 +18,7 @@
 
 Nous voulons acheter du *thé vert japonais* à la fin de notre journée de travail.
 
-Proposez-nous des adresses.
+Proposez-nous des adresses. ``Facile !``
 
 ## Résulat 01
 

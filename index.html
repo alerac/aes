@@ -8,9 +8,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/css/theme/moon.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
@@ -28,9 +28,9 @@
     <div class="slides">
 
 <section>
-    <h1 class="title">Advanced Engine Search</h1>
-    <h2 class="author">Alexandre Racine - Igor Milhit</h2>
-    <h3 class="date">2 mars 2016</h3>
+  <h1 class="title">Advanced Engine Search</h1>
+  <h2 class="author">Alexandre Racine - Igor Milhit</h2>
+  <h3 class="date">2 mars 2016</h3>
 </section>
 
 <section><section id="introduction" class="titleslide slide level1"><h1>Introduction</h1></section><section id="google-search" class="slide level2">
@@ -46,7 +46,7 @@
 </section><section id="exercice-pratique" class="slide level2">
 <h1>Exercice pratique</h1>
 <p>Nous voulons acheter du <em>thé vert japonais</em> à la fin de notre journée de travail.</p>
-<p>Proposez-nous des adresses.</p>
+<p>Proposez-nous des adresses. <code>Facile !</code></p>
 </section><section id="résulat-01" class="slide level2">
 <h1>Résulat 01</h1>
 <p><img src="images/the-vert.png" style="width:700px;" /></p>
@@ -59,6 +59,7 @@
 <p><code>définition [terme]</code> fait apparaître la définition du terme avant les résultats.</p>
 </section><section id="météo" class="slide level2">
 <h1>Météo</h1>
+<p><img src="images/meteo-delhi.png" style="width:700px;" /></p>
 </section><section id="calcul" class="slide level2">
 <h1>Calcul</h1>
 </section><section id="conversion-dunité" class="slide level2">
@@ -96,8 +97,8 @@
       Reveal.initialize({
         // Display the page number of the current slide
         slideNumber: true,
-        // Vertical centering of slides
-        center: true,
+        // Transition style
+        transition: 'concave', // none/fade/slide/convex/concave/zoom
 
         // Optional reveal.js plugins
         dependencies: [
