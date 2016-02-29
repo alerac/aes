@@ -17,7 +17,7 @@
 
 Le contenu de la présentation, sauf précision, est en ``CC-BY`` : https://creativecommons.org/licenses/by/4.0/ .
 
-## Contributeurs
+### Contributeurs
 
    * Alexandre Racine
    * [Igor Milhit](https://igor.milhit.ch)
