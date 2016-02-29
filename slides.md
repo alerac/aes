@@ -40,7 +40,34 @@ Proposez-nous des adresses.
 
 ## Calcul
 
+Peut donner le résultat d'un calcul :
+
+<img src="images/calcul.png" style="width:700px;" />
+
+## Exercice pratique
+
+Trouvez comment obtenir le résultat de *5 à la puissance 5*
+
+## Résultat
+
+<img src="images/calcul-puissance.png" style="width:700px;" />
+
 ## Conversion d'unité
+
+<img src="images/conversion-devises.png" style="width:700px;" />
+
+## Exercice pratique
+
+* Essayez de convertir des unités de volume  
+Ex :``litres vers cm3``
+* Explorez maintenant les autres possibilités de conversion d'unités
+
+## Résultat
+
+<img src="images/conversion-litres-cm3.png" style="width:700px;" />
+
+<img src="images/autres-conversions.png" style="width:700px;" />
+
 
 # Recheche avancée
 
