@@ -19,5 +19,5 @@ Le contenu de la présentation, sauf précision, est en ``CC-BY`` : https://crea
 
 ### Contributeurs
 
-   * Alexandre Racine
+   * [Alexandre Racine](https://ecritureautomatique.org)
    * [Igor Milhit](https://igor.milhit.ch)
