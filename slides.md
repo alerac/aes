@@ -36,6 +36,8 @@ Proposez-nous des adresses.
 
 ## Météo
 
+<img src="images/meteo-delhi.png" style="width:700px;" />
+
 ## Calcul
 
 ## Conversion d'unité
