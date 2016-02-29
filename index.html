@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Alexandre Racine - Igor Milhit">
+  <title>Advanced Engine Search</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Advanced Engine Search</h1>
+    <h2 class="author">Alexandre Racine - Igor Milhit</h2>
+    <h3 class="date">2 mars 2016</h3>
+</section>
+
+<section id="introduction" class="slide level1">
+<h1>Introduction</h1>
+<h2 id="google-search">Google Search</h2>
+<ul>
+<li>Par mots clés : <code>panda roux</code></li>
+<li>Opérateur par défaut : <code>ET</code></li>
+<li>Phrases simples : <code>l'aéroport le plus proche</code></li>
+</ul>
+<h2 id="terme-manquant">Terme manquant</h2>
+<p><img src="images/terme-manquant.png" style="width:600px;" /></p>
+<h2 id="exercice-pratique">Exercice pratique</h2>
+<p>Nous voulons acheter du <em>thé vert japonais</em> à la fin de notre journée de travail.</p>
+<p>Proposez-nous des adresses.</p>
+<h2 id="résulat-01">Résulat 01</h2>
+<p><img src="images/the-vert.png" style="width:700px;" /></p>
+<h2 id="résultat-02">Résultat 02</h2>
+<p><img src="images/the-vert-geneve.png" style="width:700px;" /></p>
+</section>
+<section id="des-mots-clés-particuliers" class="slide level1">
+<h1>Des mots clés particuliers</h1>
+<h2 id="définition">Définition</h2>
+<p><code>définition [terme]</code> fait apparaître la définition du terme avant les résultats.</p>
+<h2 id="météo">Météo</h2>
+<h2 id="calcul">Calcul</h2>
+<h2 id="conversion-dunité">Conversion d'unité</h2>
+</section>
+<section id="recheche-avancée" class="slide level1">
+<h1>Recheche avancée</h1>
+<h2 id="où">Où ?</h2>
+<h2 id="présentation-de-la-recherche-avancée">Présentation de la Recherche avancée</h2>
+<p>exemple stats bibliothèque</p>
+<h2 id="mise-en-évidence-syntaxe">Mise en évidence syntaxe</h2>
+<p>amélioration dans le champ proposé par google</p>
+</section>
+<section id="autres-opérateurs" class="slide level1">
+<h1>Autres opérateurs</h1>
+<ul>
+<li>inurl:</li>
+<li>cache:</li>
+<li>OR, |</li>
+<li>&quot; &quot;</li>
+<li><ul>
+<li>(troncature)</li>
+</ul></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Vertical centering of slides
+        center: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
