@@ -87,7 +87,13 @@ Au fond de la page, sous ``Parmètres > Recherche avancée`` :
 
 <img src="images/ou-recherche-avancee.png" style="width:400px;" />
 
-## Présentation de la Recherche avancée
+## Où la trouver ?
+
+Au sommet de la page, sous la roue crantée :
+
+<img src="images/ou-recherche-avancee-2.png" style="width:350px;" />
+
+## Le masque
 
 exemple stats bibliothèque
 
