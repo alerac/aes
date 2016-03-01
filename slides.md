@@ -4,7 +4,21 @@
 
 # Introduction
 
-## Google Search
+## *Google Search*
+
+* partout, tout le temps
+* *Google* me connaît mieux que moi-même
+* intrusif mais **efficace**
+
+## *Google Search*
+
+...pourtant, *parfois*, le besoin d'aller plus loin se fait sentir.
+
+* Qui connaît la recherche avancée de *Google* ?
+* Qui l'utilise ?
+* Et la syntaxe de recherche, c'est... ?
+
+## Fonctionnement de base
 
 * Par mots clés : ``panda roux``
 * Opérateur par défaut : ``ET``
@@ -12,31 +26,28 @@
 
 ## Terme manquant
 
-<img src="images/terme-manquant.png" style="width:600px;" />
+Exemple : [https://www.google.ch/search?q=panda+python+goudron](https://www.google.ch/search?q=panda+python+goudron)
 
-## Exercice pratique
+## Exercice pratique ``facile !``
 
 Nous voulons acheter du *thé vert japonais* à la fin de notre journée de travail.
 
-Proposez-nous des adresses. ``Facile !``
+Proposez-nous des adresses.
 
-## Résulat 01
-
-<img src="images/the-vert.png" style="width:700px;" />
-
-## Résultat 02
-
-<img src="images/the-vert-geneve.png" style="width:700px;" />
+[Solution](https://www.google.ch/search?q=thé-vert-japonais)
 
 # Des mots clés particuliers
 
 ## Définition
 
-``définition [terme]`` fait apparaître la définition du terme avant les résultats.
+``définition [terme]``   
+fait apparaître la définition du terme avant les résultats.
 
 ## Météo
 
-<img src="images/meteo-delhi.png" style="width:700px;" />
+Quel temps fait-il à *New Dehli* ?
+
+``météo dehli`` : [https://www.google.ch/search?q=météo+dehli](https://www.google.ch/search?q=météo+dehli)
 
 ## Calcul
 
