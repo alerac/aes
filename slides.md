@@ -95,18 +95,51 @@ Au sommet de la page, sous la roue crantée :
 
 ## Le masque
 
-exemple stats bibliothèque
+* ``statistiques bibliothèques`` entre les années ``2014 et 2016`` au format de fichier ``Excel``
+* Comment ?
+* [Solution](https://www.google.ch/advanced_search?q=statistiques+biblioth%C3%A8ques+filetype:xls+2014..2016&lr&hl=fr&as_qdr=all)
 
 ## Mise en évidence syntaxe
 
-amélioration dans le champ proposé par google
+* Renvoi au champ de recherche simple
+* Affinage des résultats
+* Comment trouver des résultats limités au site de la confédération suisse ?
+* [Solution](https://www.google.ch/search?hl=fr&as_q=statistiques+biblioth%C3%A8ques+2014..2016&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=xls&as_rights=#hl=fr&as_qdr=all&q=statistiques+biblioth%C3%A8ques+2014..2016+filetype:xls+site:admin.ch)
 
 # Autres opérateurs
 
 ## Exemples
 
-* ``inurl:``
-* ``cache:``
-* ``OR``, ``|``
+## inurl:
+
+* Retrouve le terme contenu dans une URL
+* Retrouvez les sites rattachés à la heg de cette manière
+* [Solution](https://www.google.com/search?biw=1280&bih=643&noj=1&q=inurl%3Ahesge.ch%2Fheg&oq=inurl%3Ahesge.ch%2Fheg&gs_l=serp.3...132548.147893.0.148130.46.36.9.1.3.0.421.3954.4j17j4j0j1.26.0....0...1c.1.64.serp..14.15.1086.U1BSbEEw1r4)
+* Comparaison avec l'opérateur ``site:`` vu plus haut
+* Quel constat ?
+
+## cache:
+
+Permet de consulter une page telle qu'elle s'affichait lors de la dernière exploration Google.
+
+* [La quadrature du net (29.02.2016 21h18)](http://webcache.googleusercontent.com/search?q=cache:www.laquadrature.net/fr&ie=utf-8&oe=utf-8&gws_rd=cr&ei=OfvVVtuuJYbyUPr7hZgB)
+* [La quadrature du net (maintenant)](https://www.laquadrature.net/fr)
+* Quel constat ?
+
+## OR, |
+
 * ``" "``
 * ``*``(troncature)
+
+# En conclusion
+
+## Les trucs à retenir
+
+* Recherche simple **peut** suffire mais...
+* Recherche avancée pour aller **plus loin**
+* **Combinaison** de plusieurs opérateurs
+* **Dépend des besoins** de la requête...
+* et de **l'adéquation** à votre recherche
+* **Analyse** des résultats ``ET`` esprit **critique**
+
+## Merci de votre attention
