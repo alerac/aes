@@ -28,7 +28,7 @@
 
 Exemple : [https://www.google.ch/search?q=panda+python+goudron](https://www.google.ch/search?q=panda+python+goudron)
 
-## Exercice pratique ``facile !``
+## Exercice pratique
 
 Nous voulons acheter du *thé vert japonais* à la fin de notre journée de travail.
 
@@ -49,23 +49,25 @@ Quel temps fait-il à *New Dehli* ?
 
 ``météo dehli`` : [https://www.google.ch/search?q=météo+dehli](https://www.google.ch/search?q=météo+dehli)
 
+Vous pouvez faire quelques tests... Quelle est la source ? Est-ce toujours correct ?
+
 ## Calcul
 
 Peut donner le résultat d'un calcul :
 
-<img src="images/calcul.png" style="width:700px;" />
+14 x 18 → 14 * 18
+
+[https://www.google.ch/search?q=14+*+18](https://www.google.ch/search?q=14+*+18)
 
 ## Exercice pratique
 
 Trouvez comment obtenir le résultat de *5 à la puissance 5*
 
-## Résultat
-
-<img src="images/calcul-puissance.png" style="width:700px;" />
+[Solution](https://www.google.ch/search?q=5^5)
 
 ## Conversion d'unité
 
-<img src="images/conversion-devises.png" style="width:700px;" />
+``3 dollars en francs suisse`` : [https://www.google.ch/search?q=3+dollars+en+francs+suisse](https://www.google.ch/search?q=3+dollars+en+francs+suisse)
 
 ## Exercice pratique
 
@@ -73,16 +75,17 @@ Trouvez comment obtenir le résultat de *5 à la puissance 5*
 Ex :``litres vers cm3``
 * Explorez maintenant les autres possibilités de conversion d'unités
 
-## Résultat
-
-<img src="images/conversion-litres-cm3.png" style="width:700px;" />
+## Autres conversions
 
 <img src="images/autres-conversions.png" style="width:700px;" />
 
-
 # Recheche avancée
 
-## Où ?
+## Où la trouver ?
+
+Au fond de la page, sous ``Parmètres > Recherche avancée`` :
+
+<img src="images/ou-recherche-avancee.png" style="width:400px;" />
 
 ## Présentation de la Recherche avancée
 
