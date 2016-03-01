@@ -128,8 +128,31 @@ Permet de consulter une page telle qu'elle s'affichait lors de la dernière expl
 
 ## OR, |
 
-* ``" "``
-* ``*``(troncature)
+Permet de rechercher des pages qui ne contiennent qu'un terme parmi plusieurs.
+
+[Exemple 1](https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&ie=utf-8&oe=utf-8&gws_rd=cr&ei=5QHWVoGuNoW5PcbztuAE)
+
+[Exemple 2](https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&ie=utf-8&oe=utf-8&gws_rd=cr&ei=5QHWVoGuNoW5PcbztuAE#q=statistiques+emploi+|+salaire)
+
+## " "
+
+Permet de trouver l'expression exacte. Telle qu'elle apparaît.
+
+[Exemple 1](https://www.google.ch/search?q=casser+les+pieds&ie=utf-8&oe=utf-8&gws_rd=cr&ei=OAPWVs3fBYXRO-fbk4gL#q=faire+passer+un+chameau+par+le+chas+d%27une+aiguille)
+
+[Exemple 2](https://www.google.ch/search?q=casser+les+pieds&ie=utf-8&oe=utf-8&gws_rd=cr&ei=OAPWVs3fBYXRO-fbk4gL#q=%22faire+passer+un+chameau+par+le+chas+d%27une+aiguille%22)
+
+Observez les différences entre ces deux exemples.
+
+## * (troncature)
+
+Lorsque vous ne connaissez pas ou n'êtes pas sûr du terme que vous recherchez
+
+[Exemple 1](https://www.google.ch/search?q=%22un+*+vaut+mieux+que+deux+*%22&ie=utf-8&oe=utf-8&gws_rd=cr&ei=zwXWVrPCFMX_O_z2kOAJ#)
+
+[Exemple 2](https://www.google.ch/search?q=%22un+*+vaut+mieux+que+deux+*%22&ie=utf-8&oe=utf-8&gws_rd=cr&ei=zwXWVrPCFMX_O_z2kOAJ#q=%22un+tiens+vaut+mieux+que+deux+*%22)
+
+Observez les différences entre ces deux exemples.
 
 # En conclusion
 
