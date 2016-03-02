@@ -3,36 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Alexandre Racine - Igor Milhit" />
+  <meta name="author" content="Alexandre Racine - Igor Milhit">
   <title>Advanced Engine Search</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
-    <style type="text/css">code{white-space: pre;}</style>
-    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-      if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-      }
-    </script>
-    <!--[if lt IE 9]>
-    <script src="reveal.js/lib/js/html5shiv.js"></script>
-    <![endif]-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
 <section>
-    <h1 class="title">Advanced Engine Search</h1>
-    <h2 class="author">Alexandre Racine - Igor Milhit</h2>
-    <h3 class="date">2 mars 2016</h3>
+  <h1 class="title">Advanced Engine Search</h1>
+  <h2 class="author">Alexandre Racine - Igor Milhit</h2>
+  <h3 class="date">2 mars 2016</h3>
 </section>
 
 <section><section id="introduction" class="titleslide slide level1"><h1>Introduction</h1></section><section id="google-search" class="slide level2">
@@ -68,7 +66,8 @@
 </section></section>
 <section><section id="des-mots-clés-particuliers" class="titleslide slide level1"><h1>Des mots clés particuliers</h1></section><section id="définition" class="slide level2">
 <h1>Définition</h1>
-<p><code>définition [terme]</code><br />fait apparaître la définition du terme avant les résultats.</p>
+<p><code>définition [terme]</code><br />
+fait apparaître la définition du terme avant les résultats.</p>
 </section><section id="météo" class="slide level2">
 <h1>Météo</h1>
 <p>Quel temps fait-il à <em>New Dehli</em> ?</p>
@@ -82,14 +81,15 @@
 </section><section id="exercice-pratique-1" class="slide level2">
 <h1>Exercice pratique</h1>
 <p>Trouvez comment obtenir le résultat de <em>5 à la puissance 5</em></p>
-<p><a href="https://www.google.ch/search?q=5^5">Solution</a></p>
+<p><a href="https://www.google.ch/search?q=5%5E5">Solution</a></p>
 </section><section id="conversion-dunité" class="slide level2">
 <h1>Conversion d'unité</h1>
 <p><code>3 dollars en francs suisse</code> : <a href="https://www.google.ch/search?q=3+dollars+en+francs+suisse" class="uri">https://www.google.ch/search?q=3+dollars+en+francs+suisse</a></p>
 </section><section id="exercice-pratique-2" class="slide level2">
 <h1>Exercice pratique</h1>
 <ul>
-<li>Essayez de convertir des unités de volume<br />Ex :<code>litres vers cm3</code></li>
+<li>Essayez de convertir des unités de volume<br />
+Ex :<code>litres vers cm3</code></li>
 <li>Explorez maintenant les autres possibilités de conversion d'unités</li>
 </ul>
 </section><section id="autres-conversions" class="slide level2">
@@ -143,7 +143,7 @@
 <h1>OR, |</h1>
 <p>Permet de rechercher des pages qui ne contiennent qu'un terme parmi plusieurs.</p>
 <p><a href="https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=5QHWVoGuNoW5PcbztuAE">Exemple 1</a></p>
-<p><a href="https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=5QHWVoGuNoW5PcbztuAE#q=statistiques+emploi+|+salaire">Exemple 2</a></p>
+<p><a href="https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=5QHWVoGuNoW5PcbztuAE#q=statistiques+emploi+%7C+salaire">Exemple 2</a></p>
 </section><section id="section" class="slide level2">
 <h1>&quot; &quot;</h1>
 <p>Permet de trouver l'expression exacte. Telle qu'elle apparaît.</p>
@@ -173,30 +173,26 @@
     </div>
   </div>
 
-
   <script src="reveal.js/lib/js/head.min.js"></script>
-  <script src="reveal.js/js/reveal.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
 
   <script>
 
-      // Full list of configuration options available here:
+      // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
 
-        // Optional libraries used to extend on reveal.js
+        // Optional reveal.js plugins
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
-//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
-]});
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
     </script>
     </body>
 </html>
