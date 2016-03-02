@@ -8,9 +8,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
@@ -28,9 +28,9 @@
     <div class="slides">
 
 <section>
-    <h1 class="title">Advanced Engine Search</h1>
-    <h2 class="author">Alexandre Racine - Igor Milhit</h2>
-    <h3 class="date">2 mars 2016</h3>
+  <h1 class="title">Advanced Engine Search</h1>
+  <h2 class="author">Alexandre Racine - Igor Milhit</h2>
+  <h3 class="date">2 mars 2016</h3>
 </section>
 
 <section><section id="introduction" class="titleslide slide level1"><h1>Introduction</h1></section><section id="google-search" class="slide level2">
@@ -106,20 +106,69 @@ Ex :<code>litres vers cm3</code></li>
 <p><img src="images/ou-recherche-avancee-2.png" style="width:350px;" /></p>
 </section><section id="le-masque" class="slide level2">
 <h1>Le masque</h1>
-<p>exemple stats bibliothèque</p>
+<ul>
+<li><code>statistiques bibliothèques</code> entre les années <code>2014 et 2016</code> au format de fichier <code>Excel</code></li>
+<li>Comment ?</li>
+<li><a href="https://www.google.ch/advanced_search?q=statistiques+biblioth%C3%A8ques+filetype:xls+2014..2016&amp;lr&amp;hl=fr&amp;as_qdr=all">Solution</a></li>
+</ul>
 </section><section id="mise-en-évidence-syntaxe" class="slide level2">
 <h1>Mise en évidence syntaxe</h1>
-<p>amélioration dans le champ proposé par google</p>
+<ul>
+<li>Renvoi au champ de recherche simple</li>
+<li>Affinage des résultats</li>
+<li>Comment trouver des résultats limités au site de la confédération suisse ?</li>
+<li><a href="https://www.google.ch/search?hl=fr&amp;as_q=statistiques+biblioth%C3%A8ques+2014..2016&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_nlo=&amp;as_nhi=&amp;lr=&amp;cr=&amp;as_qdr=all&amp;as_sitesearch=&amp;as_occt=any&amp;safe=images&amp;as_filetype=xls&amp;as_rights=#hl=fr&amp;as_qdr=all&amp;q=statistiques+biblioth%C3%A8ques+2014..2016+filetype:xls+site:admin.ch">Solution</a></li>
+</ul>
 </section></section>
 <section><section id="autres-opérateurs" class="titleslide slide level1"><h1>Autres opérateurs</h1></section><section id="exemples" class="slide level2">
 <h1>Exemples</h1>
+</section><section id="inurl" class="slide level2">
+<h1>inurl:</h1>
 <ul>
-<li><code>inurl:</code></li>
-<li><code>cache:</code></li>
-<li><code>OR</code>, <code>|</code></li>
-<li><code>&quot; &quot;</code></li>
-<li><code>*</code>(troncature)</li>
+<li>Retrouve le terme contenu dans une URL</li>
+<li>Retrouvez les sites rattachés à la heg de cette manière</li>
+<li><a href="https://www.google.com/search?biw=1280&amp;bih=643&amp;noj=1&amp;q=inurl%3Ahesge.ch%2Fheg&amp;oq=inurl%3Ahesge.ch%2Fheg&amp;gs_l=serp.3...132548.147893.0.148130.46.36.9.1.3.0.421.3954.4j17j4j0j1.26.0....0...1c.1.64.serp..14.15.1086.U1BSbEEw1r4">Solution</a></li>
+<li>Comparaison avec l'opérateur <code>site:</code> vu plus haut</li>
+<li>Quel constat ?</li>
 </ul>
+</section><section id="cache" class="slide level2">
+<h1>cache:</h1>
+<p>Permet de consulter une page telle qu'elle s'affichait lors de la dernière exploration Google.</p>
+<ul>
+<li><a href="http://webcache.googleusercontent.com/search?q=cache:www.laquadrature.net/fr&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=OfvVVtuuJYbyUPr7hZgB">La quadrature du net (29.02.2016 21h18)</a></li>
+<li><a href="https://www.laquadrature.net/fr">La quadrature du net (maintenant)</a></li>
+<li>Quel constat ?</li>
+</ul>
+</section><section id="or" class="slide level2">
+<h1>OR, |</h1>
+<p>Permet de rechercher des pages qui ne contiennent qu'un terme parmi plusieurs.</p>
+<p><a href="https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=5QHWVoGuNoW5PcbztuAE">Exemple 1</a></p>
+<p><a href="https://www.google.ch/search?q=statistiques+biblioth%C3%A8ques+OR+population&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=5QHWVoGuNoW5PcbztuAE#q=statistiques+emploi+%7C+salaire">Exemple 2</a></p>
+</section><section id="section" class="slide level2">
+<h1>&quot; &quot;</h1>
+<p>Permet de trouver l'expression exacte. Telle qu'elle apparaît.</p>
+<p><a href="https://www.google.ch/search?q=casser+les+pieds&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=OAPWVs3fBYXRO-fbk4gL#q=faire+passer+un+chameau+par+le+chas+d%27une+aiguille">Exemple 1</a></p>
+<p><a href="https://www.google.ch/search?q=casser+les+pieds&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=OAPWVs3fBYXRO-fbk4gL#q=%22faire+passer+un+chameau+par+le+chas+d%27une+aiguille%22">Exemple 2</a></p>
+<p>Observez les différences entre ces deux exemples.</p>
+</section><section id="troncature" class="slide level2">
+<h1>* (troncature)</h1>
+<p>Lorsque vous ne connaissez pas ou n'êtes pas sûr du terme que vous recherchez</p>
+<p><a href="https://www.google.ch/search?q=%22un+*+vaut+mieux+que+deux+*%22&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=zwXWVrPCFMX_O_z2kOAJ#">Exemple 1</a></p>
+<p><a href="https://www.google.ch/search?q=%22un+*+vaut+mieux+que+deux+*%22&amp;ie=utf-8&amp;oe=utf-8&amp;gws_rd=cr&amp;ei=zwXWVrPCFMX_O_z2kOAJ#q=%22un+tiens+vaut+mieux+que+deux+*%22">Exemple 2</a></p>
+<p>Observez les différences entre ces deux exemples.</p>
+</section></section>
+<section><section id="en-conclusion" class="titleslide slide level1"><h1>En conclusion</h1></section><section id="les-trucs-à-retenir" class="slide level2">
+<h1>Les trucs à retenir</h1>
+<ul>
+<li>Recherche simple <strong>peut</strong> suffire mais...</li>
+<li>Recherche avancée pour aller <strong>plus loin</strong></li>
+<li><strong>Combinaison</strong> de plusieurs opérateurs</li>
+<li><strong>Dépend des besoins</strong> de la requête...</li>
+<li>et de <strong>l'adéquation</strong> à votre recherche</li>
+<li><strong>Analyse</strong> des résultats <code>ET</code> esprit <strong>critique</strong></li>
+</ul>
+</section><section id="merci-de-votre-attention" class="slide level2">
+<h1>Merci de votre attention</h1>
 </section></section>
     </div>
   </div>
@@ -134,8 +183,6 @@ Ex :<code>litres vers cm3</code></li>
       Reveal.initialize({
         // Display the page number of the current slide
         slideNumber: true,
-        // Vertical centering of slides
-        center: true,
         // Transition style
         transition: 'convex', // none/fade/slide/convex/concave/zoom
 
